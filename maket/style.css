@@ -1,0 +1,301 @@
+/*Обнуление*/
+
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+
+body{
+	font-size: 15px;
+	padding-left: 400px;
+	padding-top: 100px;
+}
+
+.main{
+	background: url('img/5bCWnYylDIo.jpg');
+	height: 860px;
+	border-radius: 10px;
+	border: 1px solid black;
+	background-repeat: no-repeat;
+	width: 545px;
+
+}
+.photo{
+	border-radius: 10px;
+	
+	width: 162px;
+	height: 216px;
+	background: url('img/DZ9yPkhKtcM.jpg') 0 0/100% 100% no-repeat;
+	margin-left: 37px;
+	margin-top: 19px;
+
+}
+.contact{
+	display: inline-block;
+
+	
+	width: 210px;
+	height: 105px;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-left: 37px;
+	vertical-align: top;
+}
+
+.cont{
+	background: url('img/8666808_radio_antenna_icon 1.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	
+	left: 10px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
+.cont1{
+	background: url('img/8666632_phone_icon 1.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	
+	left: 20px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
+.cont2{
+	background: url('img/8666723_mail_icon 1.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	
+	left: 20px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
+
+.contact:nth-child(1){
+
+	
+}
+.connt{
+	
+}
+
+.span1{
+	
+	position: relative;
+	top: -10px;
+	font-weight: bold;
+}
+.span3{
+	
+	position: relative;
+	top: -10px;
+	
+}
+.span2{
+	
+	position: relative;
+	top: -10px;
+	
+}
+
+.cont3{
+	background: url('img/1564535_customer_user_userphoto_account_person_icon 1.png')  no-repeat;
+	
+	padding-left: 50px;
+	top: 2px;
+	position: relative;
+	
+	left: 10px;
+	display: inline-block;
+	height: 33px;
+	
+
+	
+}
+.dima{
+	position: relative;
+	left: 10px;
+}
+.cont4{
+	background: url('img/8674953_ic_fluent_local_language_zi_icon 1.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	top: 5px;
+	left: 10px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
+
+.cont5{
+	background: url('img/8665019_check_mark_icon 2.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	
+	left: 20px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
+.gdf{
+	color: white;
+}
+
+.cont6{
+	background: url('img/8665019_check_mark_icon 2.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	
+	left: 20px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
+
+.cont7{
+	background: url('img/2205242_college_course_degree_education_university_icon 1.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	
+	left: 10px;
+	display: inline-block;
+	height: 32px;
+	
+
+	
+}
+
+.cont9{
+	background: url('img/2203520_circle_dot_record_round_icon 2.png')  no-repeat;
+	
+	padding-left: 30px;
+
+	position: relative;
+	
+	left: 20px;
+	display: inline-block;
+	height: 15px;
+	
+	top: -7px;
+	
+
+	
+}
+.connt1{
+	top: 10px;
+	position: relative;
+	
+}
+
+.cont10{
+	background: url('img/11395275_reciprocal_business_team_people_management_icon 1.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	
+	left: 10px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
+.cont11{
+	background: url('img/1743799_chip_hardware_microchip_programming_processor_icon 1.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	
+	left: 10px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
+.cont12{
+	background: url('img/11395281_employee_skills_business_team_people_icon 1.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	top: 2px;
+	left: 10px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
+
+.cont13{
+	background: url('img/3586372_brain_idea_mind_icon 1.png')  no-repeat;
+	
+	padding-left: 50px;
+
+	position: relative;
+	
+	left: 10px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
+.cont14{
+	background: url('img/7695997_document_business_paper_file_paperwork_icon 1.png')  no-repeat;
+	top: 2px;
+	padding-left: 50px;
+
+	position: relative;
+	
+	left: 10px;
+	display: inline-block;
+	height: 30px;
+	
+
+	
+}
